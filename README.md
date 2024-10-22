@@ -32,14 +32,15 @@ Ensure you have **Python 3.8+** installed. Install **pip** if you don't have it 
    git clone https://github.com/your-username/FrameFusion.git
    cd FrameFusion
 
-Set up a virtual environment (optional but recommended):
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+2. **Set up a virtual environment (optional but recommended**:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-Install dependencies: Run the following command to install the required libraries:
-pip install -r requirements.txt
-
-Download the ESRGAN Model: Download the pre-trained ESRGAN model from this GitHub repository (https://github.com/xinntao/ESRGAN). Place the model in the app/models directory.
+3. **Install dependencies: Run the following command to install the required libraries**:
+    ```bash
+    pip install -r requirements.txt
+4. **Download the ESRGAN Model: Download the pre-trained ESRGAN model from this GitHub repository (https://github.com/xinntao/ESRGAN). Place the model in the app/models directory.**
 
 
 This will ensure that the commands for setting up the virtual environment and installing dependencies are displayed in code blocks just like the example you showed, making it clear for users on GitHub. 
